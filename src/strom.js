@@ -1,0 +1,3 @@
+var Strom = (function () {
+    
+}());
