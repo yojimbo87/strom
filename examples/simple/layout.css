@@ -1,6 +1,57 @@
 body {
     font-family: Courier New; 
     font-size: 12px; 
-    margin: 0px; 
+    margin: 24px 0 0 0; 
     padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0px auto;
+    width: 960px;
+}
+
+#header {
+    margin: 0 0 16px 0;
+    overflow: hidden;
+}
+
+img#logo {
+    float: left;
+}
+
+ul#main-menu {
+    float: right;
+}
+
+ul#main-menu li {
+    float: left;
+    margin: 0 12px;
+}
+
+#middle {
+    overflow: hidden;
+}
+
+#menu {
+    background: #666;
+    float: left;
+    padding: 8px;
+    width: 224px;
+}
+
+#content {
+    background: #f3f3f3;
+    float: right;
+    padding: 8px;
+    width: 704px;
+}
+
+#footer {
+    margin: 16px 0 0 0;
 }
